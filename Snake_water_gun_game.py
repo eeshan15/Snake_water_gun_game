@@ -92,5 +92,7 @@ if x.lower()=="yes" :
         multipletime()
     else:
         onetime()
-else :
+elif x.lower()=='no':
     print("Proven Loser you are. GO your moma is calling you😂😂")
+else :
+    raise Exception("Don't you have eyes or what ?? \n say yes or no")
